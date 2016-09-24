@@ -1,0 +1,225 @@
+// bower:scss
+// endbower
+
+html {
+  padding: 0;
+}
+
+body {
+  background: #fafafa;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: content-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+} 
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}
+
+header {
+  background: linear-gradient(top, #409FA3, #53AEB1);
+  color: #fff;
+  padding: 0 100px;
+
+  div {
+    width: 970px;
+    margin: 0 auto;
+  }
+
+  h1, h2 {
+    font-weight: 100;
+  }
+
+  h1 {
+    font-size: 80px;
+    margin-bottom: 0.2em;
+  }
+
+  h2 {
+    margin-bottom: 0;
+    font-size: 50px;
+  }
+
+  h3 {
+    color: #5C294A;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 100px;
+  }
+}
+
+.concept {
+  display: flex;
+  width: 970px;
+  margin: 40px auto 0;
+  padding-bottom: 20px;
+  border-bottom: 3px solid rgba(63, 158, 162, 0.5);
+
+  .concepts {
+    flex: 1;
+    padding-top: 20px;
+  }
+
+  .title {
+    flex-basis: 40%;
+  }
+
+  h2 {
+    color: #3F9EA2;
+    font-weight: 100;
+    font-size: 2em;
+    margin-top: 0;
+  }
+}
+
+.settings {
+  display: flex;
+  width: 100%;
+  font-weight: 200;
+  font-size: 0.9em;
+  line-height: 1.35em;
+
+  strong {
+    font-weight: 500;
+  }
+
+  .item {
+    flex: 1;
+    
+    & > div {
+      display: flex;
+    }
+  }
+
+  .label {
+    flex-basis: 25%;
+  }
+
+  .info {
+    flex: 1;
+  }
+
+  span {
+    display: block;
+
+    &:first-child {
+      margin-top: 15px;
+    }
+  }
+}
+
+.list {
+  display: flex;
+
+  .year {
+    flex-basis: 14%;
+    color: #3F9EA2;
+
+    h3 {
+      font-size: 1em;
+    }
+  }
+
+  h3, h5 {
+    margin: 0;
+  }
+
+  .description {
+    flex: 1;
+    font-size: 0.85em;
+
+    p {
+      font-weight: 200;
+      margin-top: 0;
+      line-height: 1.35em;
+    }
+
+    h5 {
+      line-height: 1.5em;
+    }
+  }
+}
+
+.skills {
+  display: flex;
+  font-size: 0.8em;
+
+  .skill-list {
+    flex: 1;
+
+    & + .skill-list {
+      margin-left: 40px;
+    }
+
+    & > div {
+      display: flex;
+      margin-bottom: 5px;
+    }
+  }
+
+  .label {
+    flex-basis: 40%;
+  }
+
+  .bar {
+    flex: 1;
+  }
+
+  .progress {
+    background: #5C294A;
+    height: 7px;
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 4px;
+
+    .progress-bar {
+      height: 7px;
+      float: left;
+      background: #3F9EA2;
+    }
+  }
+}
+
+footer {
+  background: #3F9EA2;
+  color: #fff;
+  height: 100px;
+  font-size: 0.85em;
+
+  .footer-wrapper {
+    display: flex;
+    width: 970px;
+    margin: 0 auto;
+
+    div {
+      flex: 1;
+      text-align: center;
+    }
+  }
+
+  strong {
+    font-weight: 500;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    line-height: 100px;
+  }
+}
