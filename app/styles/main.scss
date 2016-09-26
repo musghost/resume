@@ -6,7 +6,6 @@ html {
 }
 
 body {
-  background: #fafafa;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #333;
   padding: 0;
@@ -33,6 +32,7 @@ header {
   background: linear-gradient(top, #409FA3, #53AEB1);
   color: #fff;
   padding: 0 100px;
+  text-align: center;
 
   div {
     width: 970px;
@@ -58,7 +58,7 @@ header {
     margin-top: 0;
     text-transform: uppercase;
     font-weight: 400;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
   }
 }
 
@@ -71,7 +71,7 @@ header {
 
   .concepts {
     flex: 1;
-    padding-top: 20px;
+    padding-top: 10px;
   }
 
   .title {
@@ -93,6 +93,12 @@ header {
   font-size: 0.9em;
   line-height: 1.35em;
 
+  a {
+    color: #333;
+    display: inline-block;
+    margin-right: 15px;
+  }
+
   strong {
     font-weight: 500;
   }
@@ -106,7 +112,7 @@ header {
   }
 
   .label {
-    flex-basis: 25%;
+    flex-basis: 28%;
   }
 
   .info {
@@ -128,6 +134,8 @@ header {
   .year {
     flex-basis: 14%;
     color: #3F9EA2;
+    font-size: 0.85em;
+    line-height: 1.55em;
 
     h3 {
       font-size: 1em;
@@ -141,6 +149,7 @@ header {
   .description {
     flex: 1;
     font-size: 0.85em;
+    padding-left: 10px;
 
     p {
       font-weight: 200;
