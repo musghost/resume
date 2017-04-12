@@ -75,7 +75,7 @@ header {
   }
 
   .title {
-    flex-basis: 40%;
+    flex-basis: 25%;
   }
 
   h2 {
@@ -230,5 +230,22 @@ footer {
     text-decoration: none;
     font-weight: 200;
     line-height: 100px;
+  }
+}
+
+.project {
+  margin-bottom: 20px;
+  font-size: 12px;
+
+  strong {
+    color: #296467;
+
+    &.tec {
+      color: #5e5e5e;
+    }
+  }
+
+  p {
+    margin-bottom: 0;
   }
 }
